@@ -1,0 +1,6 @@
+{
+  "name": "Ritual",
+  "description": "Attention Recovery system. Returns attention to yourself, reduces internal noise, features interactive crystal growth, smart ring configurator, and AI navigator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

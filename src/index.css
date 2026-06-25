@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+html, body {
+  overscroll-behavior: none;
+  -webkit-overflow-scrolling: touch;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-touch-callout: none;
+}
+
+input, textarea, [contenteditable] {
+  -webkit-user-select: text;
+  user-select: text;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Убираем pull-to-refresh в WebView */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Скролл-контейнер без видимого ползунка */
+.scrollbar-none {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
